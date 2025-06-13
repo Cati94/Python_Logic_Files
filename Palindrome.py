@@ -1,10 +1,10 @@
-# Catarina Costa 18-07-2022 #
+# Catarina Costa 12-07-2023 #
 
-# Palindromo - diz se a palavra é Palindromo ou nao # 
-word = input("Write a word: ")
-if str(word) == str(word)[::-1] :
-        print("Palindrome")
+# Palindromo - diz se a palavra e Palindromo ou nao # 
+palavra = input("Escreva uma palavra: ")
+if str(palavra) == str(palavra)[::-1] :
+        print("Palindromo")
 else:
-        print("Not Palindrome")
+        print("Nao e Palindromo")
 
 
